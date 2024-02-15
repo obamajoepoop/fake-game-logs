@@ -12,9 +12,9 @@
     <br />
     <a href="https://discord.gg/">💬 Discord</a>
     ·
-    <a href="https://github.com/obamajoepoop/fake-game-logsissues">⚠️ Report Bug</a>
+    <a href="https://github.com/obamajoepoop/fake-game-logs/issues">⚠️ Report Bug</a>
     ·
-    <a href="https://github.com/obamajoepoop/fake-game-logsissues">💡 Request Feature</a>
+    <a href="https://github.com/obamajoepoop/fake-game-logs/issues">💡 Request Feature</a>
   </p>
 </div>
 

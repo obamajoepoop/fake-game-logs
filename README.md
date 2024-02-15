@@ -10,11 +10,11 @@
     A simple and fast program to create fake game logs for your serverside. automatically (<b> created by me </b>)
     <br />
     <br />
-    <a href="https://discord.gg/">💬 Discord</a>
+    <a href="https://discord.gg/2MPhyFSaS2">💬 Discord</a>
     ·
-    <a href="https://github.com/obamajoepoop/fake-game-logs/issues">⚠️ Report Bug</a>
+    <a href="https://github.com/obamajoepoop/fake-game-logsissues">⚠️ Report Bug</a>
     ·
-    <a href="https://github.com/obamajoepoop/fake-game-logs/issues">💡 Request Feature</a>
+    <a href="https://github.com/obamajoepoop/fake-game-logsissues">💡 Request Feature</a>
   </p>
 </div>
 

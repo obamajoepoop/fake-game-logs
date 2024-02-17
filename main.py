@@ -2,6 +2,7 @@ import discord
 import asyncio
 import random
 import aiohttp
+import uuid
 
 # add webhook in quotes
 WEBHOOK_URL = "WEBHOOK HERE"
@@ -29,12 +30,13 @@ def create_random_embed():
 
     embed = discord.Embed(title=name, color=discord.Color.random())
     embed.set_image(url=url)
-    embed.add_field(name="Visits", value=f"{random.randint(1000000, 45000000):,}", inline=True)
-    embed.add_field(name="Players Active", value=f"{random.randint(800, 1499):,}", inline=True)
-    embed.add_field(name="Server Size", value=f"{random.randint(10, 100):,}", inline=True)
-    embed.add_field(name="Favorites", value=f"{random.randint(4000, 12000):,}", inline=True)
-    embed.add_field(name="Likes", value=f"{random.randint(12000, 90000):,}", inline=True)
-    embed.add_field(name="Dislikes", value=f"{random.randint(12000, 90000):,}", inline=True)
+    embed.add_field(name="Visits", value=f"`{random.randint(1000000, 45000000):,}`", inline=True)
+    embed.add_field(name="Players Active", value=f"`{random.randint(800, 1499):,}`", inline=True)
+    embed.add_field(name="Server Size", value=f"`{random.randint(10, 100):,}`", inline=True)
+    embed.add_field(name="Favorites", value=f"`{random.randint(4000, 12000):,}`", inline=True)
+    embed.add_field(name="Likes", value=f"`{random.randint(12000, 90000):,}`", inline=True)
+    embed.add_field(name="Dislikes", value=f"`{random.randint(12000, 90000):,}`", inline=True)
+    embed.add_field(name="Job ID", value=f"`{str(uuid.uuid4())}`", inline=True)
 
     return embed
 
@@ -49,7 +51,7 @@ async def send_embeds():
     while True:
         embed = create_random_embed()
         await send_embed(WEBHOOK_URL, embed)
-        await asyncio.sleep(5)  # Change the time shit here
+        await asyncio.sleep(5)  # Adjust timing here
 
 # Run the bot
 if __name__ == "__main__":

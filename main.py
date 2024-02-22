@@ -4,6 +4,8 @@ import random
 import aiohttp
 import uuid
 
+# btw this is skidded
+# and this is ass!!!
 # add webhook in quotes
 WEBHOOK_URL = "WEBHOOK HERE"
 
@@ -22,6 +24,7 @@ embeds = {
     "Murderers vs Sheriffs 2": "https://tr.rbxcdn.com/a54bd06248095712a08e399c29161842/768/432/Image/Png",
     "Guess the easy logo! [NEW]": "https://tr.rbxcdn.com/ac40a035795fd345e10b9acef1b9141b/768/432/Image/Png"
 }
+# HANG YOURSELF FATASS
 
 # values here for visits n shit 
 def create_random_embed():
@@ -54,6 +57,7 @@ async def send_embeds():
         await asyncio.sleep(5)  # Adjust timing here
 
 # Run the bot
+# STOP USING PYTHON ITS ASS
 if __name__ == "__main__":
     loop = asyncio.get_event_loop()
     loop.run_until_complete(send_embeds())
